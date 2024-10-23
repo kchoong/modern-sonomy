@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+pnpm run format:fix
+pnpm run lint
+pnpm exec lint-staged --concurrent false
